@@ -1,0 +1,92 @@
+*{
+    font-family: 'poppins';
+}
+header{
+    border-bottom: 1px solid black;
+}
+h1{
+    display: inline;
+}
+h3{
+    display: inline;
+}
+nav{
+    float: right;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+    position: relative;
+    top: 15px;
+}
+.main h2 span{
+    color: #3a6cf4;
+    font-size: 3em;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+    text-transform: capitalize;
+    align-items: center;
+}
+.main .main-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 5rem;
+}
+.products-container{
+    display: flex;
+    flex-direction: row;
+}
+.products .products-main .products-container .product-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 12rem 0 12rem;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+}
+.products .products-main .products-container .product-card a{
+    text-decoration: none;
+    color: black;
+    background-color: #3a6cf4;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease
+}
+.products .products-main .products-container .product-card p{
+    text-align: center;
+}
+.products .products-main .products-container .product-card h3{
+    margin: 0;
+}
+.products-main{
+    margin-bottom: 5rem;
+}
+#histo-hr{
+    width: 75%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+.contact .contact-main .contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer p{
+    text-align: center;
+}
